@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack -p 3013",
-    "build": "next build && mv ./out ./docs",
+    "build": "next build",
     "start": "next start -p 3013",
     "lint": "next lint"
   },
