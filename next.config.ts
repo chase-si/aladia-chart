@@ -3,7 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '',
+  basePath: '/aladia-chart',
+  assetPrefix: '/aladia-chart/',
   images: {
     unoptimized: true
   }
