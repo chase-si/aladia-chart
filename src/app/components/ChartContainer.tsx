@@ -48,6 +48,7 @@ export default function ChartContainer({
                 <li>• GA-Sum: Sum of all channels from Google Analytics</li>
                 <li>• Prod DB: Actual registration count from production database</li>
                 <li>• Self-Platform-Google-Ads: Self-platform tracking for Google Ads</li>
+                <li>• GA-NoAds: No Ads tracking from Google Analytics</li>
               </ul>
             </div>
             <div>

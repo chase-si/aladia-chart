@@ -47,6 +47,12 @@ export const mainChartConfig: ChartConfig = {
       itemStyle: { color: '#ee6666' }
     },
     {
+      name: 'GA-NoAds',
+      data: CHART_DATA.series[10].data,
+      lineStyle: { width: 3 },
+      itemStyle: { color: '#9a60b4' }
+    },
+    {
       name: 'GA-Sum',
       data: CHART_DATA.series[4].data,
       lineStyle: { width: 4, type: 'dashed' },
@@ -57,7 +63,8 @@ export const mainChartConfig: ChartConfig = {
       data: CHART_DATA.series[5].data,
       lineStyle: { width: 4, type: 'solid' },
       itemStyle: { color: '#3ba272' }
-    }
+    },
+    
   ]
 };
 
